@@ -11,7 +11,8 @@ import android.support.annotation.Nullable;
  */
 
 public class Multiprogress{
-    private void start(Context context){
+    public void start(Context context){
+        //注释会更新上去吗?
         context.startActivity(new Intent(context,Multiprogress.class));
     }
 }
